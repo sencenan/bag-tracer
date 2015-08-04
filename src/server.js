@@ -64,7 +64,7 @@ app.get('/ping/:airline/:ref/:name', (req, res) => {
 });
 
 if (require.main === module) {
-	let server = app.listen(4000, () => {
+	let server = app.listen(8080, () => {
 		let
 			host = server.address().address,
 			port = server.address().port;
